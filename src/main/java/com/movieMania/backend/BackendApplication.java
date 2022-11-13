@@ -80,10 +80,10 @@ public class BackendApplication {
 
 			str= bf.readLine();
 			System.out.println("server says that "+str);
-			if (str.equalsIgnoreCase("over")){
-				typeLogic = false;
-				break;
-			}
+//			if (str.equalsIgnoreCase("over")){
+//				typeLogic = false;
+//				break;
+//			}
 			if (!str.equalsIgnoreCase("empty")){
 				setVal2(str);
 			}
